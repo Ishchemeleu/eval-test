@@ -7,9 +7,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = ''
+  s.homepage         = 'https://github.com/Ishchemeleu/eval-test'
   s.license          = { :type => 'None', :file => 'LICENSE' }
-  s.source           = { :git => '', :tag => s.version.to_s }
+  s.author           = { 'test@test.com' => 'test@test.com' }
+  s.source           = { :git => 'https://github.com/Ishchemeleu/eval-test', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'Sources/**/*'
